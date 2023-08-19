@@ -28,6 +28,8 @@ app.listen(app.get('port'), function () {
   console.log('Express server listening on port ' + app.get('port'));
 });
 
+module.exports = app;
+
 // INSERT YOUR CONSUMER_KEY AND CONSUMER_SECRET HERE
 
 var consumerKey = '';
